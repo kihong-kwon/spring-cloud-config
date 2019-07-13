@@ -51,7 +51,7 @@
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <start-class>com.example.springcloudconfig.SpringCloudConfigApplication</start-class>
-        <docker.image.name>spring-cloud-config</docker.image.name>
+        <docker.image.name>yano3000/spring-cloud-config</docker.image.name>
         <docker.image.tag>${env.BUILD_NAME}</docker.image.tag>
     </properties>
 
